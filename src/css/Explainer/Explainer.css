@@ -1,0 +1,58 @@
+.code-block {
+	width: parent;
+	margin-left: 50px;
+	margin-top: 25px;
+	height: 50px;
+}
+.row {
+	display: flex;
+	margin-bottom: 70px;
+}
+
+.column {
+	flex: 50%;
+	margin-bottom: 20px;
+	min-height: 100vh;
+	margin-left: 10px;
+	margin-right: 30px;
+}
+
+/* handled footer + scroll bars are shown only when 
+needed both for x and y axis, used important to override 
+semantic-ui css styling rules */
+
+
+#alg-highlight-wrapper{
+	height: 100%;
+}
+
+#alg-highlight-wrapper,
+.alg-description {
+	overflow: scroll !important;
+	overflow-y: auto !important;
+	overflow-x: auto !important;
+}
+
+#complexity-alg-table {
+	margin-bottom: 150px;
+}
+
+.alg-description {
+	margin-bottom: 50px;
+}
+#heading-explainer {
+	margin-left: 50px;
+}
+
+#right-col {
+	font-size: 23pt;
+}
+
+.center {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+.tech-wrapper{
+	display: inline-block;
+}

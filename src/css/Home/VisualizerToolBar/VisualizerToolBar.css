@@ -1,0 +1,17 @@
+.VisualizerToolBar {
+	text-align: center;
+	margin: 35px;
+	margin-bottom: 50px;
+}
+
+#speed-select-wrapper {
+	left: 50% !important;
+	right: auto !important;
+	text-align: center !important;
+	margin-top: 20px;
+}
+
+
+.control-label{
+	font-size: 1.2rem;
+}
